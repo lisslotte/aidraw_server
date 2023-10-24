@@ -20,7 +20,7 @@ public class CounterServiceImpl implements CounterService {
 
   @Override
   public Optional<Counter> getCounter(Integer id) {
-    return Optional.ofNullable(countersMapper.getCounter(id));
+    return 1/*Optional.ofNullable(countersMapper.getCounter(id))*/;
   }
 
   @Override
